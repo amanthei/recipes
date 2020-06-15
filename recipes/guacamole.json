@@ -1,0 +1,15 @@
+{
+  "title": "Guacamole",
+  "note": ["Mom's recipe!"],
+  "ingredients": [
+    ["3", "Ripe avocados, smashed"],
+    ["1", "Tomato, chopped"],
+    ["1/2", "Small onion, chopped"],
+    [null, "Lemon juice to taste"],
+    [null, "Red pepper flakes to taste"],
+    [null, "Salt to taste"]
+  ],
+  "instructions": [
+    "Mix all together and try to keep away from Christian or it will soon be gone! :)"
+  ]
+}

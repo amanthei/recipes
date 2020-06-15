@@ -8,6 +8,7 @@ export default function recipeTemplate({ pageContext: { recipe } }) {
         title={recipe.title}
         ingredientArray={recipe.ingredients}
         instructionArray={recipe.instructions}
+        note={recipe.note}
       />
     </section>
   );
