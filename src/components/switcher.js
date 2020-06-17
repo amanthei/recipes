@@ -1,23 +1,6 @@
 import React from "react";
 
-function onSwitch() {
-  let text = document.getElementsByClassName("text")[0];
-  let handwriting = document.getElementsByClassName("handwriting")[0];
-  let textIcon = document.getElementsByClassName("textIcon")[0];
-  let handwritingIcon = document.getElementsByClassName("handwritingIcon")[0];
-
-  if (text) {
-    text.className = "handwriting";
-    textIcon.style.setProperty(`display`, ``);
-    handwritingIcon.style.setProperty(`display`, `none`);
-  } else {
-    handwriting.className = "text";
-    handwritingIcon.style.setProperty(`display`, ``);
-    textIcon.style.setProperty(`display`, `none`);
-  }
-}
-
-const Switcher = ({}) => (
+const Switcher = (props) => (
   <button
     style={{
       background: `none`,
@@ -28,7 +11,7 @@ const Switcher = ({}) => (
       cursor: `pointer`,
       outline: `none`,
     }}
-    onClick={onSwitch}
+    onClick={props.onClick}
     className="text"
   >
     <svg
