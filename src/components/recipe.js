@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
 import Switcher from "./switcher";
-import Image from "./image";
 import Ingredients from "./ingredients";
 import Instructions from "./instructions";
 import Note from "./note";
@@ -46,6 +45,7 @@ const Recipe = ({ title, ingredientArray, instructionArray, note }) => {
     }
   }
   const [mode, setMode] = useState("text");
+  let path = "/" + title.toLowerCase().split(" ").join("-") + ".svg";
   return (
     <Layout>
       <SEO title={title} />
@@ -56,7 +56,7 @@ const Recipe = ({ title, ingredientArray, instructionArray, note }) => {
       {mode === "text" ? (
         text(ingredientArray, instructionArray, note)
       ) : (
-        <Image />
+        <img src={path} alt={title}></img>
       )}
       <Link
         style={{
