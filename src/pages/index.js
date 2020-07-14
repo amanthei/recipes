@@ -7,7 +7,7 @@ import SEO from "../components/seo";
 const IndexPage = ({ data }) => {
   const links = [];
   data.pages.edges.forEach(function (page) {
-    const recipe = page.node.context.recipe;
+    const recipe = page.node.context?.recipe;
     if (recipe) {
       links.push({ title: recipe.title, path: page.node.path });
     }

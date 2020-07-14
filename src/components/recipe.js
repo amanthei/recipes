@@ -56,7 +56,7 @@ const Recipe = ({ title, ingredientArray, instructionArray, note }) => {
       {mode === "text" ? (
         text(ingredientArray, instructionArray, note)
       ) : (
-        <img src={path} alt={title}></img>
+        <img src={path} alt={title} draggable="false"></img>
       )}
       <Link
         style={{
