@@ -7,7 +7,7 @@ const Switcher = (props) => (
       border: `none`,
       height: `48px`,
       width: `48px`,
-      margin: `-8px -16px`,
+      margin: `-8px -8px`,
       cursor: `pointer`,
       outline: `none`,
     }}
