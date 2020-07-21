@@ -1,0 +1,23 @@
+{
+  "title": "Beef Burgundy Stew",
+  "note": ["Recipe originated from Grammy Alyce Liptock"],
+  "ingredients": [
+    ["1 1/2 lbs.", "Lean beef chuck, cut in cubes"],
+    ["2 tsps.", "Veg. oil"],
+    ["1 can (1 lb)", "Chopped tomatoes"],
+    ["1/2 c.", "Burgundy wine"],
+    ["1", "Beef bouillon cube"],
+    ["1 1/2 tsp.", "Salt"],
+    ["1/2 tsp.", "Basil"],
+    ["1/4 tsp.", "Garlic salt"],
+    ["1/4 tsp.", "Pepper"],
+    ["1 small", "Bay leaf"],
+    [null, "Carrots"],
+    [null, "Potatoes"],
+    ["2 T.", "Cornstarch"],
+    ["1/4 c.", "Water"]
+  ],
+  "instructions": [
+    "Brown beef cubes in oil. Add tomatoes, wine, bouillon & seasonings. Cover and simmer for at least 45 mins. Add carrots & potatoes & cook at least 45 mins. longer. Blend cornstarch and water & stir into stew mixture, stirring until thickened. Remove bay leaf. Can serve over rice."
+  ]
+}
