@@ -19,7 +19,7 @@ function text(ingredientArray, instructionArray, note) {
         }
       })}
       <Ingredients ingredient={ingredientArray} />
-      <Instructions instruction={instructionArray} note={note} />
+      <Instructions instruction={instructionArray} />
       <Divider />
     </>
   );

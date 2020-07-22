@@ -10,15 +10,19 @@ const Ingredients = ({ ingredient }) => (
   >
     <ul style={{ margin: 0, listStyleType: `none` }}>
       {ingredient.map(function (item) {
-        if (item[0] !== null) {
-          return (
-            <li key={item}>
-              <Tag text={item[0]} />
-              {item[1]}
-            </li>
-          );
+        if (item !== null) {
+          if (item[0] !== null) {
+            return (
+              <li key={item}>
+                <Tag text={item[0]} />
+                {item[1]}
+              </li>
+            );
+          } else {
+            return <li key={item}>{item[1]}</li>;
+          }
         } else {
-          return <li key={item}>{item[1]}</li>;
+          return null;
         }
       })}
     </ul>
