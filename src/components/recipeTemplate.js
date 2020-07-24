@@ -6,9 +6,10 @@ export default function recipeTemplate({ pageContext: { recipe } }) {
     <section>
       <Recipe
         title={recipe.title}
+        category={recipe.category}
+        note={recipe.note}
         ingredientArray={recipe.ingredients}
         instructionArray={recipe.instructions}
-        note={recipe.note}
       />
     </section>
   );
