@@ -1,0 +1,18 @@
+{
+  "title": "Ring-A-Lings",
+  "category": "Desserts",
+  "note": ["Another holiday favourite originating from Grammy Alyce."],
+  "ingredients": [
+    ["1 cup", "Sifted flour"],
+    [null, "Dash of salt"],
+    ["3 T.", "Confectioners sugar"],
+    ["1 tsp.", "Vanilla"],
+    ["1/2 c.", "Butter"],
+    [null, "Jams and jellies"]
+  ],
+  "instructions": [
+    "Sift flour & salt together in bowl. Set aside. Cream butter with confectioners sugar until well blended. Stir in dry ingredients half at a time, blending well to make a soft dough. Add vanilla & stir through. Chill several hours or until firm enough to handle.",
+    "Roll dough into marble-sized balls. Place 2 in. apart on baking sheet. Make a hollow in center of each with thumb. Fill with jam or jelly (not too much – it will run over).",
+    "Bake in 300° oven for about 20 mins."
+  ]
+}
