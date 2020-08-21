@@ -19,7 +19,11 @@ const Ingredients = ({ ingredient }) => (
               </li>
             );
           } else {
-            return <li key={item}>{item[1]}</li>;
+            if (item[1] !== null) {
+              return <li key={item}>{item[1]}</li>;
+            } else {
+              return <br key={item[1]} />;
+            }
           }
         } else {
           return null;

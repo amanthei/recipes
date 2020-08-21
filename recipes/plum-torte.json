@@ -1,0 +1,28 @@
+{
+  "title": "Plum Torte",
+  "category": "Desserts",
+  "note": [
+    "This recipe originated from Aunt Lois Martin. She used to make it for me and Cousin Lisa to celebrate our September birthdays."
+  ],
+  "ingredients": [
+    [null, "Italian plums (small, purple, oval-shaped)"],
+    ["2/3 c.", "Sugar"],
+    ["2 T", "Flour"],
+    ["2", "Egg yolks"],
+    ["2 tsp.", "Water"],
+    ["1/8 tsp.", "Salt"],
+    [null, null],
+    [null, "Crust"],
+    ["1 1/2 c.", "Flour"],
+    ["1/4 c.", "Sugar"],
+    ["1/2 c.", "Butter"],
+    ["1", "Egg"]
+  ],
+  "instructions": [
+    "Combine crust ingredients; knead. Rollout or press into a spring form pan – on the bottom and 1/4 way up side.",
+    "Pit & quarter Italian plums. Place skin side up in pan.",
+    "Make crust by combining together: sugar, flour, egg yolks, water & salt.",
+    "Spread over plums.",
+    "Bake at 400° for 20 mins & then 350° until done – about 20 more mins."
+  ]
+}
