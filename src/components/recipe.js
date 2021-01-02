@@ -45,7 +45,12 @@ const Recipe = ({ title, ingredientArray, instructionArray, note }) => {
     }
   }
   const [mode, setMode] = useState("text");
-  let path = "/" + title.toLowerCase().split(" ").join("-") + ".svg";
+  let path = "/" + title.toLowerCase().split(" ").join("-");
+  let svg = path + ".svg";
+  let jpg = path + ".jpg";
+  function error() {
+    let jpg = "";
+  }
   return (
     <Layout>
       <SEO title={title} />
@@ -56,8 +61,20 @@ const Recipe = ({ title, ingredientArray, instructionArray, note }) => {
       {mode === "text" ? (
         text(ingredientArray, instructionArray, note)
       ) : (
-        <img src={path} alt={title} draggable="false"></img>
+        <img src={svg} alt={title} draggable="false"></img>
       )}
+      <img
+        src={jpg}
+        alt={title}
+        draggable="false"
+        style={{
+          borderRadius: `2px`,
+        }}
+        onError={(e) => {
+          e.target.onerror = null;
+          e.target.style = "display: none";
+        }}
+      ></img>
       <Link
         style={{
           padding: `0 0 100px 0`,
